@@ -1,0 +1,14 @@
+// inside an inner loop
+public class BreakEx2 {
+public static void main(String[] args) {
+            for(int u=0;u<=2;u++){
+                    for(int j=1;j<=3;j++){
+                        if(u==1&&j==2){
+                            //using break statement inside the inner loop
+                            break;
+                        }
+                        System.out.println(u+" "+j);
+                    }
+            }
+}
+}
